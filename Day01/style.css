@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: #23424A;
+    padding: 2rem;
+    width: 70%; /* working with percentages in your widths makes things more responsive
+    by default html webpages are responsive. */
+    margin: 0 auto;
+}
+
+.child {
+    background-color: #38CFD9;
+    /* normall I wouldn't include a height it's just to get us
+    started. */
+    padding: 5em;
+    margin: 0 auto;
+    width: 50%;
+    /* height: 250px; */
+}
